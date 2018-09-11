@@ -52,6 +52,7 @@ coverage.xml
 *.pot
 
 # Django stuff:
+./camp_crystal/camp_crystal/settings.py
 *.log
 local_settings.py
 db.sqlite3
