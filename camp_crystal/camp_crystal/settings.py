@@ -25,7 +25,10 @@ SECRET_KEY = '^h_jqr6-^nj_a5iv%4g58t#)^g)1#3n&gx%f_h*izt5tbya!h('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'lightslab.com',
+    'www.lightslab.com',
+]
 
 
 # Application definition
