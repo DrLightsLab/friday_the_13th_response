@@ -1,4 +1,5 @@
 from django.http import JsonResponse
+from django.conf import settings
 import json
 
 def stock(request):
@@ -13,7 +14,7 @@ def stock(request):
 def article(request):
     try:
         data = {}
-        with open('./friday_the_13th_response/data/article.json', 'rb') as file:
+        with open(settings.BASE_DIR, 'rb') as file:
             data = json.load(file)
     except Exception as e:
         data = {'error' : str(e)}
