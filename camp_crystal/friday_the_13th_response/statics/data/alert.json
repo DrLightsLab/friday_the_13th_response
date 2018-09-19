@@ -1,0 +1,24 @@
+{
+    "returnResponse": {
+        "returnType": "S",
+        "message": "Alerts found",
+        "messageNo": null,
+        "fields": [],
+        "errors": {
+            "errorId": 0,
+            "code": null,
+            "message": null,
+            "fieldErrors": null
+        },
+        "currentServer": "localhost"
+    },
+    "alerts": {
+        "GOODSTORE": 1,
+        "CHECKLIST": 1,
+        "PINPAD": 1,
+        "DOMBOPISCUSTOMERPICKUP": 34,
+        "DOMSFSPICKORDER": 268,
+        "DOMSFSPACKORDER": 23,
+        "DOMBOPISPICK": 26
+    }
+ }

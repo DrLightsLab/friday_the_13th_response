@@ -4,5 +4,6 @@ from . import jason
 
 urlpatterns = [
     path('stock/', jason.stock, name='stock'),
-    path('article/', jason.article, name='article')
+    path('article/', jason.article, name='article'),
+    path('alert/', jason.alert, name='alert')
 ]
