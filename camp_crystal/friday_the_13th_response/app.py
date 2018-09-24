@@ -1,5 +1,6 @@
 from flask import Flask, Blueprint
 from flask_restplus import Api, Namespace, Resource
+from .conf import conf
 import os
 import json
 
@@ -13,6 +14,7 @@ alert_api = Namespace('alert')
 class Stock(Resource):
     def get(self):
         "Returns json response from file stock.json"
+        print(conf)
         data = get_json('stock')
         return data
 
@@ -45,9 +47,9 @@ def create_app():
 
 def get_json(file):
     try:
-        with open('./friday_the_13th_response/data/' + file + '.json', 'rb') as file:
+        file_path = conf.STATIC_ROOT + file + '.json'
+        with open(file_path, 'rb') as file:
             data = json.load(file)
-            print(data)
     except Exception as e:
-        data = {'error' : str(e), 'dir' : str(os.getcwd())}
+        data = {'error' : 'There was an error reading the file.'}
     return data
