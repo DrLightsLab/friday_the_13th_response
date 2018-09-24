@@ -13,7 +13,7 @@ alert_api = Namespace('alert')
 @stock_api.route('/', strict_slashes=False)
 class Stock(Resource):
     def get(self):
-        "Returns json response from file stock.json"
+        "Returns json response from stock json file"
         print(conf)
         data = get_json('stock')
         return data
@@ -21,14 +21,14 @@ class Stock(Resource):
 @article_api.route('/', strict_slashes=False)
 class Article(Resource):
     def get(self):
-        "Returns json response from article.json"
+        "Returns json response from article json file"
         data = get_json('article')
         return data
 
 @alert_api.route('/', strict_slashes=False)
 class Alert(Resource):
     def get(self):
-        "Returns json response from alert.json"
+        "Returns json response from alert json file"
         data = get_json('alert')
         return data
 
