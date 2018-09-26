@@ -1,0 +1,42 @@
+{
+    "itemId": "1963347",
+    "uom": "EA",
+    "productClass": "GOOD",
+    "availableStores": {
+        "availableStore": [
+            {
+                "storeNum": "3206",
+                "availableQuantity": "2.00"
+            }
+        ]
+    },
+    "searchBy": "all",
+    "sourceOfSupply": "N",
+    "soldWTD": "0",
+    "lastRequest": "1970-01-01T00:00:00UTC",
+    "pricingData": {
+        "promoPriceObj": null,
+        "regPriceObj": {
+            "futureDate": "",
+            "price": "14.99",
+            "futurePrice": ""
+        }
+    },
+    "onHands": "2.000",
+    "upc": "78484094518",
+    "description": " 8IN BENT SCISSOR ORANGE",
+    "callBW": "N",
+    "replenishmentType": "Repl in Demand & Fulfillment",
+    "article": "01963347",
+    "lastReceipt": "1970-01-01T00:00:00UTC",
+    "soldLW": "0",
+    "imageURL": "http://demandware.edgesuite.net/sits_joann/dw/image/v2/AAMM_PRD/on/demandware.static/Sites-JoAnn-Site/Sites-joann-product-catalog/default/v/images/hi-res/19/1963347.jpg?sw=400&sh=400&sm=fit",
+    "onOrder": "0",
+    "season": "0000",
+    "thumbURL": "http://demandware.edgesuite.net/sits_joann/dw/image/v2/AAMM_PRD/on/demandware.static/Sites-JoAnn-Site/Sites-joann-product-catalog/default/v/images/hi-res/19/1963347.jpg?sw=100&sh=100&sm=fit",
+    "status": "Active",
+    "inTransit": "0",
+    "returnType": "S",
+    "message": null,
+    "return": {}
+ }
