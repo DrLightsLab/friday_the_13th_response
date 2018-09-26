@@ -25,7 +25,7 @@ class Article(Resource):
         data = get_json('article')
         return data
 
-@article_api.route('/null', stict_slashes=False)
+@article_api.route('/null', strict_slashes=False)
 class Article(Resource):
     def get(self):
         "Returns json respomse from article-with-null json file"
