@@ -3,8 +3,9 @@ from .base import Base
 
 api = Namespace('alert')
 
-@api.route('/<string:title>', strict_slashes=False)
+@api.route('/', strict_slashes=False)
 class Alert(Base):
+    title = 'alert'
     "Returns json response from alert json file"
     pass
     

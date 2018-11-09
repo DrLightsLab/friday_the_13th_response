@@ -3,13 +3,15 @@ from .base import Base
 
 api = Namespace('article')
 
-@api.route('/<string:title>', strict_slashes=False)
+@api.route('/', strict_slashes=False)
 class Article(Base):
+    title = 'article'
     "Returns json response from article json file"
     pass
         
 
-@api.route('/null/<string:title>', strict_slashes=False)
+@api.route('/null/', strict_slashes=False)
 class Article(Base):
+    title = 'article-with-null'
     "Returns json response from article-with-null json file"
     pass
