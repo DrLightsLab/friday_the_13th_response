@@ -18,12 +18,17 @@
         "promoPriceObj": {
             "futureDate": "1970-01-01T00:00:00UTC",
             "price": "3.99",
-            "futurePrice": ""
+            "futurePrice": "2.99"
         },
         "regPriceObj": {
-            "futureDate": "",
+            "futureDate": "1970-01-01T00:00:00UTC",
             "price": "10.99",
-            "futurePrice": ""
+            "futurePrice": "4.99"
+        },
+        "bogoObj" : {
+            "bogoDesc" : "B3G2",
+            "bogoFutureDate" : "1970-01-01T00:00:00UTC",
+            "bogoFutureDesc" : "B2G1"
         }
     },
     "onHands": "0",
