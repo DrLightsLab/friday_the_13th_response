@@ -1,0 +1,25 @@
+{
+    "returnResponse": {
+        "returnType":"I",
+        "message":"Article 01424415 is valid",
+        "messageNo":"007",
+        "fields":[],
+        "errors":{
+            "errorId":0,
+            "code":null,
+            "message":null,
+            "fieldErrors":null
+        },
+        "currentServer":"hlqoss01"
+    },
+    "input":"1424415",
+    "werks":"3206",
+    "vkorg":"S001",
+    "vtweg":"10",
+    "nonMerchOk":"",
+    "matnr":"01424415",
+    "meinh":"YD",
+    "maktx":"FIERA SPA",
+    "upc":"400014244153",
+    "status": "Discontinued/Not Available"
+}
